@@ -1,4 +1,8 @@
 const express = require('express');
+
+// CI test change
+console.log("Testing CI with a Pull Request")
+
 const app = express();
 app.use(express.json());
 
