@@ -9,7 +9,7 @@ app.use(express.json());
 const tasksRouter = require('./routes/tasks'); 
 
 app.get('/', (req, res) => {
-  res.json({ message: "Task Manager API running (Lab2)" });
+  res.json({ message: "Task Manager API running (Lab4)" });
 });
 
 app.use('/tasks', tasksRouter); 
